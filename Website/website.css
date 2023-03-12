@@ -1,6 +1,7 @@
 *{
   margin: 0;
   padding: 0;
+  color: #000000;
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
 }
@@ -43,14 +44,9 @@ nav ul li a{
 }
 
 
-
-
-
-
 body{
 	background: url('bg.png') no-repeat;
 	background-size: cover;
-	color: #fff;
 }
 
 .contact-us {
