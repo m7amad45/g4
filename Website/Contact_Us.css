@@ -1,0 +1,63 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-family: sans-serif;
+}
+
+body{
+	background: url('bg.png') no-repeat;
+	background-size: cover;
+	color: #fff;
+}
+
+.contact-us {
+	position: absolute;
+	top: 50%;
+	Left: 50%;
+	transform: translate(-50%, -50%);
+	width: 400px;
+}
+
+.contact-us h1 {
+	font-size: 35px;
+	text-align: center;
+	text-transform: uppercase;
+	margin: 10px 0;
+}
+
+.contact-us h3 {
+	font-size: 25px;
+	text-align: center;
+	text-transform: uppercase;
+	margin: 15px 0;
+}
+
+
+.contact-us p {
+    font-size: 15px;
+    margin: 8px 0;
+}
+
+.contact-us input {
+	font-size: 12px;
+	padding: 10px 10px;
+	width: 100%;
+	border: 0;
+	border-radius: 5px;
+	outline: none;
+}
+
+.contact-us button {
+	font-size: 18px;
+	font-weight: bold;
+	margin: 20px 0;
+	padding: 10px 15px;
+	width: 105%;
+	border: 0;
+	border-radius: 5px;
+	background-color: #fff;
+}
+
+.contact-us button:hover {
+	color: #0F52BA;
+}
