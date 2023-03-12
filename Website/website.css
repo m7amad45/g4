@@ -1,13 +1,13 @@
-h2{text-align: center;}
-p{text-align: center;}
-
 .header {
   padding: 60px;
   text-align: center;
-  background: #1abc9c;
+  background: #001833;
   color: white;
   font-size: 30px;
 }
+
+h2{text-align: center;}
+p{text-align: center;}
 
 body {
     margin: auto;
