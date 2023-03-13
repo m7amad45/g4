@@ -1,0 +1,15 @@
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+.text-box{
+    margin-top: 130px;
+    margin-left: 100px;
+    max-width: 600px;
+  }
+  
+.text-box h1{
+    font-size: 45px;
+    margin-bottom: 20px;
+    color: black;
+  }

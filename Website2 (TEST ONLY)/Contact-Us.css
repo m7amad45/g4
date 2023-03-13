@@ -1,0 +1,38 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-family: sans-serif;
+}
+
+.form{
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    border: 10;
+    border-color: rgb(143, 143, 143);
+}
+
+.form input {
+	font-size: 12px;
+	padding: 10px 10px;
+	width: 250px;
+	border: 0.5;
+	border-radius: 5px;
+	outline: none;
+}
+
+.form button {
+	font-size: 18px;
+	font-weight: bold;
+    color: white;
+	margin: 20px 0;
+	padding: 10px 15px;
+	width: 200px;
+	border: 0;
+	border-radius: 5px;
+	background-color: rgb(26, 81, 153);
+}
+
+.form button:hover {
+	color: #0F52BA;
+}
