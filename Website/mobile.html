@@ -97,14 +97,14 @@
 
 <script> 
      
-     var globalCounter = 0;
 var Mobile = document.getElementById('Mobile');
 for (var i = 0; i < Object.keys(mobiles).length; i++) {
-    var tr = "<tr>";
-   
-
-    tr += "<td>" + mobiles[i].title + "</td>" + "<td>" + mobiles[i].desc + "</td>"+"<td>" + mobiles[i].price + "</td></tr>";
-    Mobile.innerHTML += tr;
+    var tr = `<tr>
+							<td>${mobiles[i].title}</td>
+							<td>${mobiles[i].desc}</td>
+							<td>${mobiles[i].price}</td>
+					  </tr>`
+        Mobile.innerHTML += tr;
 }
     </script>
     
