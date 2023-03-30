@@ -1,0 +1,47 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- JQuery core -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" 
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" 
+    crossorigin="anonymous">
+    </script>
+    <script src="json/mobile-data.js"></script>
+</head>
+<style>
+    table, th, td {
+      border:1px solid black;
+    }
+    </style>
+<body>
+    <h1>mobiles page</h1>
+<p>this page contains all mbile's data from <code>mobile-data.js</code> </p>
+
+<table >
+    <tr>
+        <th>Name</th>
+        <th>Describtiion</th>
+        <th>Price</th>
+    </tr>
+    <tbody id="Mobile"></tbody> 
+</table>
+</body>
+</html>
+
+<script> 
+     
+     var globalCounter = 0;
+var Mobile = document.getElementById('Mobile');
+for (var i = 0; i < Object.keys(mobiles).length; i++) {
+    var tr = "<tr>";
+   
+
+    tr += "<td>" + mobiles[i].title + "</td>" + "<td>" + mobiles[i].desc + "</td>"+"<td>" + mobiles[i].price + "</td></tr>";
+    Mobile.innerHTML += tr;
+}
+    </script>
+    
