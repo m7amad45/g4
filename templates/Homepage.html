@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        {% extends "layout.html" %}
+        {% block head %}
+        {{ super() }}
+        <title>Home Page</title>
+        {% endblock %}
+    </head>
+    
+    <body>
+        {% block myContent %}
+        <div class="text-box">
+            <h1><i class="fa-solid fa-house-chimney"></i>  Home</h1>
+            <p>Project topic has not been decided yet, please give us a minute lmao</p>
+            <img src="static/tumbleweed.gif">
+        </div>
+        <br>
+        <div>
+        </div>
+        {% endblock myContent %}
+    </body>
+</html>

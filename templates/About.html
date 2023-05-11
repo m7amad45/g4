@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        {% extends "layout.html" %}
+        {% block head %}
+        {{ super() }}
+        <title>About</title>
+        {% endblock %}
+    </head>
+    
+    <body>
+        {% block myContent %}
+        <div class="text-box">
+            <h1><i class="fa-solid fa-address-card"></i>  About Us</h1>
+            <p>This project is for Internet Application Course (SE-421)<br>
+            <br>
+            Instructor: Dr. Sami Alfattani<br>
+            <br>
+            By Group-4:<br>
+            1. Mohammad Shalabi<br>
+            2. Omar Khan<br>
+            3. Mohammad Algamdi<br>
+            4. Abdulmajeed Tarabulsi<br>
+            </p>
+            <br>
+            <img src="https://fakeimg.pl/300/" >
+        </div>
+        
+        {% endblock myContent %}
+    </body>
+</html>

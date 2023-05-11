@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <head>
+            {% extends "layout.html" %}
+            {% block head %}
+            {{ super() }}
+            <title>Contact Us</title>
+            {% endblock %}
+        </head>
+    
+    <body>
+
+        {% block myContent %}
+
+        <div class="text-box">
+            <h1><i class="fa-solid fa-comments"></i>  Contact Us</h1>
+        </div>
+        <br>
+
+        <div class="form">
+            <form >
+                <label for="fname">First name:</label><br>
+                <input type="text" id="fname" name="fname">
+                <br>
+                <br>
+                <label for="lname">Last name:</label><br>
+                <input type="text" id="lname" name="lname">
+                <br>
+                <br>
+                <label for="email">Email:</label><br>
+                <input type="text" id="email" name="email">
+                <br>
+                <br>
+                <label for="Inquiry">Please enter your inquiry here:</label><br>
+                <textarea name="inquiry" rows="5" cols="33"></textarea><br>
+                <br>
+                <form method='POST'> <button type="submit">Submit</button> </form>
+               
+            </form>
+        </div>
+
+
+        {% endblock myContent %}
+    </body>
+</html>
